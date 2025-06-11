@@ -93,7 +93,7 @@ if ($_POST) {
 
 
     #CONEXION MYSQL
-    $Conexion = mysqli_connect($servidor, $usuario, $password, $base_datos, $puerto);
+    $Conexion = mysqli_connect($servidor, $usuario, $password, $base_datos, $puerto)
             or die("FALLO EN LA CONEXION");
     #SELECCIONAMOS BASE
     mysqli_select_db($Conexion, "global")
