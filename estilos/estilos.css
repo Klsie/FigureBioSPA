@@ -1,0 +1,258 @@
+h2 {
+    color: #333;
+}
+
+
+header {
+    margin-top: auto 0;
+    margin-right: auto 0;
+    background: rgb(180, 134, 58);
+    background: -moz-linear-gradient(90deg, rgba(180, 134, 58, 1) 0%, rgba(253, 109, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(180, 134, 58, 1) 0%, rgba(253, 109, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(90deg, rgba(180, 134, 58, 1) 0%, rgba(253, 109, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b4863a", endColorstr="#fcb045", GradientType=1);
+}
+
+image {
+    image-resolution: 100px;
+}
+
+footer{
+    background-color: #333; /* Cambia #333 por el color que desees */
+    color: #fff; /* Cambia #fff por el color del texto que desees, si es necesario */
+    padding: 20px; /* Añade relleno si es necesario para separar el contenido del pie de página del borde */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .imagen{
+    width: 320px;
+    height: 200px;
+}
+
+.contenedor{    
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+.mapa{
+    height: 400px;
+    width: 80%; /* Ajusta el ancho según tu preferencia */
+    margin: 0 auto; /* Centra el mapa horizontalmente */
+}
+
+.menu-container {
+    background-color: #333;
+    /* Color de fondo del contenedor del menú */
+    padding: 10px;
+    /* Espaciado interno del contenedor del menú */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.menu-list {
+    list-style: none;
+    /* Quita los estilos de lista (viñetas) */
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline-block;
+    /* Coloca los elementos del menú en línea */
+    margin-right: 20px;
+    /* Espaciado entre elementos del menú */
+}
+
+.menu-link {
+    text-decoration: none;
+    /* Quita el subrayado predeterminado de los enlaces */
+    color: #fff;
+    /* Color del texto del enlace */
+    font-weight: bold;
+    /* Peso de la fuente para resaltar */
+    font-size: 16px;
+    /* Tamaño de fuente del enlace */
+}
+
+.menu-link:hover {
+    color: #ffcc00;
+    /* Cambia el color del texto al pasar el ratón sobre el enlace */
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Ajusta el relleno según tus necesidades */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    /* Color del borde */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    color: #ffffff;
+    /* Color del texto */
+    background-color: #3498db;
+    /* Color de fondo */
+    transition: background-color 0.3s, color 0.3s;
+    /* Efecto de transición al pasar el ratón */
+
+}
+
+.boton:hover {
+    background-color: #2980b9;
+    /* Cambia el color de fondo al pasar el ratón */
+    color: #ffffff;
+    /* Cambia el color del texto al pasar el ratón */
+}
+
+.body {
+    min-width: 60rem;
+    background: rgb(180, 134, 58);
+    background: -moz-linear-gradient(90deg, rgba(180, 134, 58, 1) 0%, rgba(253, 109, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(180, 134, 58, 1) 0%, rgba(253, 109, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(90deg, rgba(180, 134, 58, 1) 0%, rgba(253, 109, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b4863a", endColorstr="#fcb045", GradientType=1);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto 0;
+    margin: auto 0;
+}
+
+.logo {
+    height: auto;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.acercade {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(180, 134, 58);
+    background: linear-gradient(90deg, rgba(180, 134, 58, 1) 0%, rgba(253, 109, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border: 1px solid #ccc;
+}
+
+
+/* PRODUCTOS ============*/
+
+.products-list {
+    width: 82%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 320px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    border: 3px solid orange;
+    padding: 10px;
+  }
+
+.products-list .product-item {
+    width: 22%;
+    margin-left: 3%;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgb(1, 48, 17);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    transition: all .4s;
+}
+
+.products-list .product-item img {
+    width: 100%;
+}
+
+.products-list .product-item a {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    
+    text-align: center;
+    text-decoration: none;
+}
+.products-list .product-item form {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+}
+form {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.div1 {
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.div2 {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+
+/* RESPONSIVE
+*/
+
+@media screen and (max-width: 1100px) {
+    .products-list .product-item {
+        width: 30.3%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .products-list {
+        width: 100%;
+    }
+    .products-list .product-item {
+        margin-left: 4.5%;
+    }
+    .products-list .product-item:nth-child(3n+1) {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .products-list .product-item {
+        width: 47.5%;
+    }
+    .products-list .product-item:nth-child(3n+1) {
+        margin-left: 4.5%;
+    }
+    .products-list .product-item:nth-child(2n+1) {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .products-list .product_item {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
